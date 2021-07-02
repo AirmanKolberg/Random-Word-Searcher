@@ -9,6 +9,11 @@ and over again, this is the script for you.
 ## Requirements
 - `counterMacOS11.sh`
 - Access to a Terminal emulator
+- A machine running Mac OS X or Mac OS 11 (note; if you have access to this, you also have access to
+a Terminal emulator, so I really could have consolidated these two requirements into one)
+
+NOTE-TO-SELF: Remove the second requirement, as well as everything within the parentheses of the third
+and final requirement.
 
 ## Instructions
 - Ensure the script is executable with a simple `chmod +x counterMacOS11.sh`
