@@ -2,7 +2,10 @@
 
 This is an old shell script I found on a USB.  I thought it was entertaining, so I figured I'd share.
 If you're looking for a way to have your machine continuously Google a word or words randomly over
-and over again, this is the script for you.
+and over again, this is the script for you.  It randomly selects whether it'll Google 1, 2, 3, or 4
+words at random, then once it's picked the number of words, it Googles those random number of
+random words for a random (ranged) amount of time, a time that is also displayed to you on the
+Terminal emulator window whilst the Google results are being displayed.
 
 ---
 
@@ -14,6 +17,9 @@ a Terminal emulator, so I really could have consolidated these two requirements 
 
 NOTE-TO-SELF: Remove the second requirement, as well as everything within the parentheses of the third
 and final requirement.
+
+If you want this script (at all, for some reason) to run on Windows or Linux, you need only change lines
+`37`, `55`, `75`, and `97`.
 
 ## Instructions
 - Ensure the script is executable with a simple `chmod +x counterMacOS11.sh`
